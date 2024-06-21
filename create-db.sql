@@ -1,3 +1,7 @@
+CREATE DATABASE mcf-test;
+
+use mcf-test;
+
 CREATE TABLE users (
     id INT PRIMARY KEY,
     email VARCHAR(255) NOT NULL,
